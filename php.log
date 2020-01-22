@@ -1,0 +1,3254 @@
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：「　連絡掲示板　
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：msg情報を取得します
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：掲示板ID：23
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：$viewDataの中身：Array
+(
+    [0] => Array
+        (
+            [p_id] => 31
+            [sale_user] => 24
+            [buy_user] => 25
+            [msg] => きみのて
+            [msg_id] => 7
+            [send_time] => 2019-10-10 20:31:27
+            [to_user] => 24
+            [from_user] => 25
+        )
+
+    [1] => Array
+        (
+            [p_id] => 31
+            [sale_user] => 24
+            [buy_user] => 25
+            [msg] => まっく
+            [msg_id] => 8
+            [send_time] => 2019-10-10 20:49:53
+            [to_user] => 24
+            [from_user] => 25
+        )
+
+    [2] => Array
+        (
+            [p_id] => 31
+            [sale_user] => 24
+            [buy_user] => 25
+            [msg] => PHP
+            [msg_id] => 9
+            [send_time] => 2019-10-10 20:50:03
+            [to_user] => 24
+            [from_user] => 25
+        )
+
+    [3] => Array
+        (
+            [p_id] => 31
+            [sale_user] => 24
+            [buy_user] => 25
+            [msg] => あれ？
+            [msg_id] => 10
+            [send_time] => 2019-10-10 21:02:37
+            [to_user] => 25
+            [from_user] => 24
+        )
+
+    [4] => Array
+        (
+            [p_id] => 31
+            [sale_user] => 24
+            [buy_user] => 25
+            [msg] => やったー！
+            [msg_id] => 11
+            [send_time] => 2019-10-10 21:06:34
+            [to_user] => 25
+            [from_user] => 24
+        )
+
+)
+
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：$dealUserIds1:Array
+(
+    [0] => 24
+)
+
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：$dealUserIds2:Array
+(
+    [0] => 24
+    [1] => 25
+)
+
+[31-Oct-2019 14:12:25 Asia/Tokyo] デバッグ：取得した相手のユーザーID：24
+[01-Nov-2019 13:00:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Nov-2019 13:00:25 Asia/Tokyo] デバッグ：「　出品登録ページ　
+[01-Nov-2019 13:00:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Nov-2019 13:00:25 Asia/Tokyo] デバッグ：商品登録画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：「　商品詳細画面　
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：取得したDBデータ($viewData)：Array
+(
+    [id] => 31
+    [p_name] => 気まぐるめ
+    [comment] => しっとりおいしいごはん
+    [price] => 300
+    [pic1] => uploads/cat.png
+    [pic2] => uploads/ごろん.jpg
+    [pic3] => uploads/む.jpg
+    [user_id] => 24
+    [create_date] => 
+    [update_date] => 
+    [category] => ごはん
+)
+
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：ユーザーID：20
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：商品ID：31
+[01-Nov-2019 22:15:46 Asia/Tokyo] デバッグ：特に気に入っていません
+[01-Nov-2019 22:15:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Nov-2019 22:15:50 Asia/Tokyo] デバッグ：「　Ajax　
+[01-Nov-2019 22:15:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Nov-2019 22:15:50 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[01-Nov-2019 22:15:50 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです
+[01-Nov-2019 22:15:50 Asia/Tokyo] デバッグ：Ajax処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:14:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:12 Asia/Tokyo] デバッグ：「　ホーム　
+[05-Nov-2019 17:14:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:12 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[05-Nov-2019 17:14:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:21 Asia/Tokyo] デバッグ：「　ホーム　
+[05-Nov-2019 17:14:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:21 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：「　ログインページ　
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです。
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：post送信されていません
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：「　ログインページ　
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：post送信されていません
+[05-Nov-2019 17:14:32 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：「　ログインページ　
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：POST送信があります。
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：バリデーションOKです。
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$SWhRqwhFVZf5C9BZ3dFeheNV6XwkdcahCeG3/Rhd6gKOzeBk47SLC
+    [id] => 17
+)
+
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります。
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1572941680
+    [login_limit] => 2592000
+    [user_id] => 17
+)
+
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[05-Nov-2019 17:14:40 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:14:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:41 Asia/Tokyo] デバッグ：「　マイページ　
+[05-Nov-2019 17:14:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:41 Asia/Tokyo] デバッグ：自分の商品情報を取得します
+[05-Nov-2019 17:14:41 Asia/Tokyo] デバッグ：自分のmsg情報を取得します
+[05-Nov-2019 17:14:41 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します
+[05-Nov-2019 17:14:41 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:14:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:44 Asia/Tokyo] デバッグ：「　ホーム　
+[05-Nov-2019 17:14:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:44 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[05-Nov-2019 17:14:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:46 Asia/Tokyo] デバッグ：「　マイページ　
+[05-Nov-2019 17:14:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:46 Asia/Tokyo] デバッグ：自分の商品情報を取得します
+[05-Nov-2019 17:14:46 Asia/Tokyo] デバッグ：自分のmsg情報を取得します
+[05-Nov-2019 17:14:46 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します
+[05-Nov-2019 17:14:46 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:14:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:49 Asia/Tokyo] デバッグ：「　退会画面　
+[05-Nov-2019 17:14:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:14:49 Asia/Tokyo] デバッグ：ログインしているユーザー：9ip41hsob92vud2p651gsg86p6
+[05-Nov-2019 17:14:49 Asia/Tokyo] デバッグ：POST送信がありません
+[05-Nov-2019 17:14:49 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：「　ログインページ　
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：post送信されていません
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：「　マイページ　
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：自分の商品情報を取得します
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：自分のmsg情報を取得します
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します
+[05-Nov-2019 17:42:00 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：「　ログインページ　
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：post送信されていません
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：「　マイページ　
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：自分の商品情報を取得します
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：自分のmsg情報を取得します
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します
+[05-Nov-2019 17:42:08 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：「　ログアウトページ　
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：ログアウトします。
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：ログインページへ遷移します。
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：「　ログインページ　
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：post送信されていません
+[05-Nov-2019 17:42:10 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Nov-2019 14:39:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 14:39:10 Asia/Tokyo] デバッグ：「　ホーム　
+[08-Nov-2019 14:39:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 14:39:10 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[08-Nov-2019 16:12:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:12:15 Asia/Tokyo] デバッグ：「　ホーム　
+[08-Nov-2019 16:12:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:12:15 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[08-Nov-2019 16:19:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:19:12 Asia/Tokyo] デバッグ：「　ホーム　
+[08-Nov-2019 16:19:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:19:12 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[08-Nov-2019 16:19:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:19:43 Asia/Tokyo] デバッグ：「　ホーム　
+[08-Nov-2019 16:19:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:19:43 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[08-Nov-2019 16:21:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:19 Asia/Tokyo] デバッグ：「　ユーザー登録ページ　
+[08-Nov-2019 16:21:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:23 Asia/Tokyo] デバッグ：「　ホーム　
+[08-Nov-2019 16:21:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:23 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：「　ログインページ　
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです。
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：post送信されていません
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：「　ログインページ　
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：post送信されていません
+[08-Nov-2019 16:21:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：「　ログインページ　
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：バリデーションOKです。
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$SWhRqwhFVZf5C9BZ3dFeheNV6XwkdcahCeG3/Rhd6gKOzeBk47SLC
+    [id] => 17
+)
+
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります。
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1573197700
+    [login_limit] => 2592000
+    [user_id] => 17
+)
+
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：「　マイページ　
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：自分の商品情報を取得します
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：自分のmsg情報を取得します
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します
+[08-Nov-2019 16:21:40 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Nov-2019 17:20:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 17:20:41 Asia/Tokyo] デバッグ：「　ホーム　
+[08-Nov-2019 17:20:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[08-Nov-2019 17:20:41 Asia/Tokyo] デバッグ：$dbProductDataの中身：Array
+(
+    [total] => 24
+    [total_page] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 31
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [1] => Array
+                (
+                    [id] => 32
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 24
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [2] => Array
+                (
+                    [id] => 33
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [3] => Array
+                (
+                    [id] => 34
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 25
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [4] => Array
+                (
+                    [id] => 35
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [5] => Array
+                (
+                    [id] => 36
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [6] => Array
+                (
+                    [id] => 37
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [7] => Array
+                (
+                    [id] => 38
+                    [p_name] => ちゅ～る
+                    [category] => 2
+                    [comment] => あげすぎ注意なおいしいおやつ
+                    [price] => 200
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [8] => Array
+                (
+                    [id] => 39
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [9] => Array
+                (
+                    [id] => 40
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [10] => Array
+                (
+                    [id] => 41
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [11] => Array
+                (
+                    [id] => 42
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [12] => Array
+                (
+                    [id] => 43
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [13] => Array
+                (
+                    [id] => 44
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [14] => Array
+                (
+                    [id] => 45
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [15] => Array
+                (
+                    [id] => 46
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [16] => Array
+                (
+                    [id] => 47
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [17] => Array
+                (
+                    [id] => 48
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [18] => Array
+                (
+                    [id] => 49
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+            [19] => Array
+                (
+                    [id] => 50
+                    [p_name] => 気まぐるめ
+                    [category] => 1
+                    [comment] => しっとりおいしいごはん
+                    [price] => 300
+                    [pic1] => uploads/cat.png
+                    [pic2] => uploads/ごろん.jpg
+                    [pic3] => uploads/む.jpg
+                    [user_id] => 
+                    [delete_flg] => 0
+                    [create_date] => 
+                    [update_date] => 
+                )
+
+        )
+
+)
+
